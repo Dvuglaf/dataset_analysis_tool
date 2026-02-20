@@ -1,0 +1,104 @@
+{
+  "metrics": [
+    {
+      "metric_name": "entropy",
+      "metric_value": 5.286523103713989
+    },
+    {
+      "metric_name": "brightness",
+      "metric_value": 121.14871866515712
+    },
+    {
+      "metric_name": "contrast",
+      "metric_value": 57.87569701648156
+    },
+    {
+      "metric_name": "saturation",
+      "metric_value": 86.41682460329775
+    },
+    {
+      "metric_name": "blur",
+      "metric_value": 251.00083326164304
+    },
+    {
+      "metric_name": "artifacts",
+      "metric_value": 0.0056363533702461195
+    },
+    {
+      "metric_name": "motion_smoothness",
+      "metric_value": 0.9999985794226328
+    },
+    {
+      "metric_name": "optical_flow",
+      "metric_value": 0.6104418734709421
+    },
+    {
+      "metric_name": "psnr",
+      "metric_value": 22.718008995056152
+    },
+    {
+      "metric_name": "ssim",
+      "metric_value": 0.8903167843818665
+    },
+    {
+      "metric_name": "background_dominance",
+      "metric_value": 0.15935085962216058
+    },
+    {
+      "metric_name": "duration_sec",
+      "metric_value": 1.44
+    },
+    {
+      "metric_name": "persistence",
+      "metric_value": 0.576
+    },
+    {
+      "metric_name": "norm_avg_velocity",
+      "metric_value": 0.030641999999999996
+    },
+    {
+      "metric_name": "norm_displacement",
+      "metric_value": null
+    },
+    {
+      "metric_name": "frames_count",
+      "metric_value": 16.8
+    },
+    {
+      "metric_name": "domain_concentration",
+      "metric_value": 68.838
+    },
+    {
+      "metric_name": "features",
+      "metric_value": "68eaff17a049a45efc5e889fab28ac478d340f0c519bceabea15a974188db4be_features.npy"
+    },
+    {
+      "metric_name": "norm_displacement_v",
+      "metric_value": 0.173648
+    },
+    {
+      "metric_name": "clip_ics",
+      "metric_value": 0.0
+    },
+    {
+      "metric_name": "num_clusters",
+      "metric_value": 0.0
+    },
+    {
+      "metric_name": "r_R_score",
+      "metric_value": null
+    },
+    {
+      "metric_name": "noise_ratio",
+      "metric_value": 1.0
+    },
+    {
+      "metric_name": "temporary_consistency_clip_score",
+      "metric_value": 0.9761497477690378
+    },
+    {
+      "metric_name": "clip_ics",
+      "metric_value": 0.25773218274116516
+    }
+  ]
+}

@@ -1,0 +1,698 @@
+{
+  "version": "1",
+  "dataset_path": "demo/dataset/",
+  "created_at": "2026-02-15T20:18:56.055394",
+  "videos": [
+    {
+      "id": 1,
+      "path": "lean_manifucture_textile.mp4"
+    },
+    {
+      "id": 2,
+      "path": "seweing_machine_work.mp4"
+    },
+    {
+      "id": 3,
+      "path": "unloading_truck_with_loader.mp4"
+    },
+    {
+      "id": 4,
+      "path": "electric/multimeter_calibration.mp4"
+    },
+    {
+      "id": 5,
+      "path": "electric/soldering/soldering_32_pin.mp4"
+    },
+    {
+      "id": 6,
+      "path": "electric/soldering/hand_soldering_components_on_pcb.mp4"
+    },
+    {
+      "id": 7,
+      "path": "aircraft maintenance/aircraft_maintenance_2.mp4"
+    },
+    {
+      "id": 8,
+      "path": "aircraft maintenance/aircraft_maintenance_1.mp4"
+    },
+    {
+      "id": 9,
+      "path": "tyres.mp4"
+    }
+  ],
+  "scenes": [
+    {
+      "start_frame": 0,
+      "end_frame": 232,
+      "start_time_s": 0.0,
+      "end_time_s": 7.741066666666667,
+      "label": "pyscenedetect (Adaptive) #0",
+      "scene_algo_id": 1,
+      "video_id": 1
+    },
+    {
+      "start_frame": 232,
+      "end_frame": 1063,
+      "start_time_s": 7.741066666666667,
+      "end_time_s": 35.46876666666667,
+      "label": "pyscenedetect (Adaptive) #1",
+      "scene_algo_id": 1,
+      "video_id": 1
+    },
+    {
+      "start_frame": 1063,
+      "end_frame": 1319,
+      "start_time_s": 35.46876666666667,
+      "end_time_s": 44.01063333333333,
+      "label": "pyscenedetect (Adaptive) #2",
+      "scene_algo_id": 1,
+      "video_id": 1
+    },
+    {
+      "start_frame": 0,
+      "end_frame": 80,
+      "start_time_s": 0.0,
+      "end_time_s": 2.6693333333333333,
+      "label": "pyscenedetect (Adaptive) #0",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 80,
+      "end_frame": 152,
+      "start_time_s": 2.6693333333333333,
+      "end_time_s": 5.071733333333333,
+      "label": "pyscenedetect (Adaptive) #1",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 152,
+      "end_frame": 231,
+      "start_time_s": 5.071733333333333,
+      "end_time_s": 7.7077,
+      "label": "pyscenedetect (Adaptive) #2",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 231,
+      "end_frame": 310,
+      "start_time_s": 7.7077,
+      "end_time_s": 10.343666666666667,
+      "label": "pyscenedetect (Adaptive) #3",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 310,
+      "end_frame": 355,
+      "start_time_s": 10.343666666666667,
+      "end_time_s": 11.845166666666668,
+      "label": "pyscenedetect (Adaptive) #4",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 355,
+      "end_frame": 402,
+      "start_time_s": 11.845166666666668,
+      "end_time_s": 13.413400000000001,
+      "label": "pyscenedetect (Adaptive) #5",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 402,
+      "end_frame": 445,
+      "start_time_s": 13.413400000000001,
+      "end_time_s": 14.848166666666668,
+      "label": "pyscenedetect (Adaptive) #6",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 445,
+      "end_frame": 536,
+      "start_time_s": 14.848166666666668,
+      "end_time_s": 17.884533333333334,
+      "label": "pyscenedetect (Adaptive) #7",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 536,
+      "end_frame": 599,
+      "start_time_s": 17.884533333333334,
+      "end_time_s": 19.986633333333334,
+      "label": "pyscenedetect (Adaptive) #8",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 599,
+      "end_frame": 634,
+      "start_time_s": 19.986633333333334,
+      "end_time_s": 21.154466666666668,
+      "label": "pyscenedetect (Adaptive) #9",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 634,
+      "end_frame": 684,
+      "start_time_s": 21.154466666666668,
+      "end_time_s": 22.8228,
+      "label": "pyscenedetect (Adaptive) #10",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 684,
+      "end_frame": 815,
+      "start_time_s": 22.8228,
+      "end_time_s": 27.193833333333334,
+      "label": "pyscenedetect (Adaptive) #11",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 815,
+      "end_frame": 902,
+      "start_time_s": 27.193833333333334,
+      "end_time_s": 30.096733333333333,
+      "label": "pyscenedetect (Adaptive) #12",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 902,
+      "end_frame": 991,
+      "start_time_s": 30.096733333333333,
+      "end_time_s": 33.06636666666667,
+      "label": "pyscenedetect (Adaptive) #13",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 991,
+      "end_frame": 1048,
+      "start_time_s": 33.06636666666667,
+      "end_time_s": 34.968266666666665,
+      "label": "pyscenedetect (Adaptive) #14",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 1048,
+      "end_frame": 1115,
+      "start_time_s": 34.968266666666665,
+      "end_time_s": 37.203833333333336,
+      "label": "pyscenedetect (Adaptive) #15",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 1115,
+      "end_frame": 1199,
+      "start_time_s": 37.203833333333336,
+      "end_time_s": 40.00663333333333,
+      "label": "pyscenedetect (Adaptive) #16",
+      "scene_algo_id": 1,
+      "video_id": 2
+    },
+    {
+      "start_frame": 0,
+      "end_frame": 870,
+      "start_time_s": 0.0,
+      "end_time_s": 29.0,
+      "label": "full",
+      "scene_algo_id": 1,
+      "video_id": 3
+    },
+    {
+      "start_frame": 0,
+      "end_frame": 123,
+      "start_time_s": 0.0,
+      "end_time_s": 4.104104104104104,
+      "label": "pyscenedetect (Adaptive) #0",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 123,
+      "end_frame": 145,
+      "start_time_s": 4.104104104104104,
+      "end_time_s": 4.838171504838171,
+      "label": "pyscenedetect (Adaptive) #1",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 145,
+      "end_frame": 164,
+      "start_time_s": 4.838171504838171,
+      "end_time_s": 5.472138805472139,
+      "label": "pyscenedetect (Adaptive) #2",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 164,
+      "end_frame": 262,
+      "start_time_s": 5.472138805472139,
+      "end_time_s": 8.742075408742076,
+      "label": "pyscenedetect (Adaptive) #3",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 262,
+      "end_frame": 295,
+      "start_time_s": 8.742075408742076,
+      "end_time_s": 9.843176509843177,
+      "label": "pyscenedetect (Adaptive) #4",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 295,
+      "end_frame": 326,
+      "start_time_s": 9.843176509843177,
+      "end_time_s": 10.877544210877545,
+      "label": "pyscenedetect (Adaptive) #5",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 326,
+      "end_frame": 374,
+      "start_time_s": 10.877544210877545,
+      "end_time_s": 12.479145812479146,
+      "label": "pyscenedetect (Adaptive) #6",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 374,
+      "end_frame": 429,
+      "start_time_s": 12.479145812479146,
+      "end_time_s": 14.314314314314315,
+      "label": "pyscenedetect (Adaptive) #7",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 429,
+      "end_frame": 447,
+      "start_time_s": 14.314314314314315,
+      "end_time_s": 14.914914914914915,
+      "label": "pyscenedetect (Adaptive) #8",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 447,
+      "end_frame": 789,
+      "start_time_s": 14.914914914914915,
+      "end_time_s": 26.326326326326328,
+      "label": "pyscenedetect (Adaptive) #9",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 789,
+      "end_frame": 835,
+      "start_time_s": 26.326326326326328,
+      "end_time_s": 27.861194527861194,
+      "label": "pyscenedetect (Adaptive) #10",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 835,
+      "end_frame": 963,
+      "start_time_s": 27.861194527861194,
+      "end_time_s": 32.132132132132135,
+      "label": "pyscenedetect (Adaptive) #11",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 963,
+      "end_frame": 1109,
+      "start_time_s": 32.132132132132135,
+      "end_time_s": 37.00367033700367,
+      "label": "pyscenedetect (Adaptive) #12",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 1109,
+      "end_frame": 1132,
+      "start_time_s": 37.00367033700367,
+      "end_time_s": 37.77110443777111,
+      "label": "pyscenedetect (Adaptive) #13",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 1132,
+      "end_frame": 1218,
+      "start_time_s": 37.77110443777111,
+      "end_time_s": 40.64064064064064,
+      "label": "pyscenedetect (Adaptive) #14",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 1218,
+      "end_frame": 1257,
+      "start_time_s": 40.64064064064064,
+      "end_time_s": 41.94194194194194,
+      "label": "pyscenedetect (Adaptive) #15",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 1257,
+      "end_frame": 1298,
+      "start_time_s": 41.94194194194194,
+      "end_time_s": 43.30997664330998,
+      "label": "pyscenedetect (Adaptive) #16",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 1298,
+      "end_frame": 1329,
+      "start_time_s": 43.30997664330998,
+      "end_time_s": 44.34434434434434,
+      "label": "pyscenedetect (Adaptive) #17",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 1329,
+      "end_frame": 1368,
+      "start_time_s": 44.34434434434434,
+      "end_time_s": 45.64564564564565,
+      "label": "pyscenedetect (Adaptive) #18",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 1368,
+      "end_frame": 1400,
+      "start_time_s": 45.64564564564565,
+      "end_time_s": 46.71338004671338,
+      "label": "pyscenedetect (Adaptive) #19",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 1400,
+      "end_frame": 1433,
+      "start_time_s": 46.71338004671338,
+      "end_time_s": 47.81448114781448,
+      "label": "pyscenedetect (Adaptive) #21",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 1433,
+      "end_frame": 1530,
+      "start_time_s": 47.81448114781448,
+      "end_time_s": 51.051051051051054,
+      "label": "pyscenedetect (Adaptive) #22",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 1530,
+      "end_frame": 1656,
+      "start_time_s": 51.051051051051054,
+      "end_time_s": 55.25525525525526,
+      "label": "pyscenedetect (Adaptive) #23",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 1656,
+      "end_frame": 1677,
+      "start_time_s": 55.25525525525526,
+      "end_time_s": 55.95595595595596,
+      "label": "pyscenedetect (Adaptive) #24",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 1677,
+      "end_frame": 1814,
+      "start_time_s": 55.95595595595596,
+      "end_time_s": 60.5271938605272,
+      "label": "pyscenedetect (Adaptive) #25",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 1814,
+      "end_frame": 1881,
+      "start_time_s": 60.5271938605272,
+      "end_time_s": 62.76276276276276,
+      "label": "pyscenedetect (Adaptive) #26",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 1881,
+      "end_frame": 2007,
+      "start_time_s": 62.76276276276276,
+      "end_time_s": 66.96696696696696,
+      "label": "pyscenedetect (Adaptive) #27",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 2007,
+      "end_frame": 2140,
+      "start_time_s": 66.96696696696696,
+      "end_time_s": 71.40473807140474,
+      "label": "pyscenedetect (Adaptive) #28",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 2140,
+      "end_frame": 2207,
+      "start_time_s": 71.40473807140474,
+      "end_time_s": 73.6403069736403,
+      "label": "pyscenedetect (Adaptive) #29",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 2207,
+      "end_frame": 2234,
+      "start_time_s": 73.6403069736403,
+      "end_time_s": 74.54120787454121,
+      "label": "pyscenedetect (Adaptive) #30",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 2234,
+      "end_frame": 2251,
+      "start_time_s": 74.54120787454121,
+      "end_time_s": 75.10844177510845,
+      "label": "pyscenedetect (Adaptive) #31",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 2251,
+      "end_frame": 2308,
+      "start_time_s": 75.10844177510845,
+      "end_time_s": 77.01034367701034,
+      "label": "pyscenedetect (Adaptive) #32",
+      "scene_algo_id": 1,
+      "video_id": 4
+    },
+    {
+      "start_frame": 0,
+      "end_frame": 600,
+      "start_time_s": 0.0,
+      "end_time_s": 20.0,
+      "label": "full",
+      "scene_algo_id": 1,
+      "video_id": 5
+    },
+    {
+      "start_frame": 0,
+      "end_frame": 418,
+      "start_time_s": 0.0,
+      "end_time_s": 13.947266666666668,
+      "label": "pyscenedetect (Adaptive) #0",
+      "scene_algo_id": 1,
+      "video_id": 6
+    },
+    {
+      "start_frame": 418,
+      "end_frame": 534,
+      "start_time_s": 13.947266666666668,
+      "end_time_s": 17.817800000000002,
+      "label": "pyscenedetect (Adaptive) #1",
+      "scene_algo_id": 1,
+      "video_id": 6
+    },
+    {
+      "start_frame": 534,
+      "end_frame": 981,
+      "start_time_s": 17.817800000000002,
+      "end_time_s": 32.7327,
+      "label": "pyscenedetect (Adaptive) #2",
+      "scene_algo_id": 1,
+      "video_id": 6
+    },
+    {
+      "start_frame": 981,
+      "end_frame": 1197,
+      "start_time_s": 32.7327,
+      "end_time_s": 39.9399,
+      "label": "pyscenedetect (Adaptive) #3",
+      "scene_algo_id": 1,
+      "video_id": 6
+    },
+    {
+      "start_frame": 1197,
+      "end_frame": 1746,
+      "start_time_s": 39.9399,
+      "end_time_s": 58.2582,
+      "label": "pyscenedetect (Adaptive) #4",
+      "scene_algo_id": 1,
+      "video_id": 6
+    },
+    {
+      "start_frame": 1746,
+      "end_frame": 2217,
+      "start_time_s": 58.2582,
+      "end_time_s": 73.9739,
+      "label": "pyscenedetect (Adaptive) #5",
+      "scene_algo_id": 1,
+      "video_id": 6
+    },
+    {
+      "start_frame": 0,
+      "end_frame": 622,
+      "start_time_s": 0.0,
+      "end_time_s": 20.733333333333334,
+      "label": "pyscenedetect (Adaptive) #0",
+      "scene_algo_id": 1,
+      "video_id": 7
+    },
+    {
+      "start_frame": 622,
+      "end_frame": 1020,
+      "start_time_s": 20.733333333333334,
+      "end_time_s": 34.0,
+      "label": "pyscenedetect (Adaptive) #1",
+      "scene_algo_id": 1,
+      "video_id": 7
+    },
+    {
+      "start_frame": 0,
+      "end_frame": 683,
+      "start_time_s": 0.0,
+      "end_time_s": 22.766666666666666,
+      "label": "pyscenedetect (Adaptive) #0",
+      "scene_algo_id": 1,
+      "video_id": 8
+    },
+    {
+      "start_frame": 683,
+      "end_frame": 1228,
+      "start_time_s": 22.766666666666666,
+      "end_time_s": 40.93333333333333,
+      "label": "pyscenedetect (Adaptive) #1",
+      "scene_algo_id": 1,
+      "video_id": 8
+    },
+    {
+      "start_frame": 1228,
+      "end_frame": 1480,
+      "start_time_s": 40.93333333333333,
+      "end_time_s": 49.333333333333336,
+      "label": "pyscenedetect (Adaptive) #2",
+      "scene_algo_id": 1,
+      "video_id": 8
+    },
+    {
+      "start_frame": 1480,
+      "end_frame": 1800,
+      "start_time_s": 49.333333333333336,
+      "end_time_s": 60.0,
+      "label": "pyscenedetect (Adaptive) #3",
+      "scene_algo_id": 1,
+      "video_id": 8
+    },
+    {
+      "start_frame": 0,
+      "end_frame": 68,
+      "start_time_s": 0.0,
+      "end_time_s": 2.2666666666666666,
+      "label": "pyscenedetect (Adaptive) #0",
+      "scene_algo_id": 2,
+      "video_id": 9
+    },
+    {
+      "start_frame": 68,
+      "end_frame": 111,
+      "start_time_s": 2.2666666666666666,
+      "end_time_s": 3.7,
+      "label": "pyscenedetect (Adaptive) #1",
+      "scene_algo_id": 2,
+      "video_id": 9
+    },
+    {
+      "start_frame": 111,
+      "end_frame": 208,
+      "start_time_s": 3.7,
+      "end_time_s": 6.933333333333334,
+      "label": "pyscenedetect (Adaptive) #2",
+      "scene_algo_id": 2,
+      "video_id": 9
+    },
+    {
+      "start_frame": 208,
+      "end_frame": 265,
+      "start_time_s": 6.933333333333334,
+      "end_time_s": 8.833333333333334,
+      "label": "pyscenedetect (Adaptive) #3",
+      "scene_algo_id": 2,
+      "video_id": 9
+    }
+  ],
+  "scene_algos": [
+    {
+      "id": 1,
+      "name": "pyscenedetect (Adaptive)",
+      "params": {
+        "adaptive_threshold": 3.0,
+        "min_scene_len": 2,
+        "window_width": 30,
+        "min_content_val": 15.0
+      }
+    },
+    {
+      "id": 2,
+      "name": "pyscenedetect (Adaptive)",
+      "params": {
+        "adaptive_threshold": 3.0,
+        "min_scene_len": 15,
+        "window_width": 2,
+        "min_content_val": 15.0
+      }
+    }
+  ],
+  "settings": {}
+}

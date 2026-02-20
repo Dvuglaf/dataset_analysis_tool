@@ -1,0 +1,81 @@
+{
+  "scene_id": "pyscenedetect (Adaptive) #0",
+  "metrics": [
+    {
+      "metric_name": "entropy",
+      "metric_value": 4.837553977966309
+    },
+    {
+      "metric_name": "brightness",
+      "metric_value": 60.52662935216692
+    },
+    {
+      "metric_name": "contrast",
+      "metric_value": 54.877555293217526
+    },
+    {
+      "metric_name": "saturation",
+      "metric_value": 167.03664781482223
+    },
+    {
+      "metric_name": "blur",
+      "metric_value": 19.696128001966976
+    },
+    {
+      "metric_name": "artifacts",
+      "metric_value": 4.209596609447923e-06
+    },
+    {
+      "metric_name": "motion_smoothness",
+      "metric_value": 0.9999982118606567
+    },
+    {
+      "metric_name": "optical_flow",
+      "metric_value": 1.3785697221755981
+    },
+    {
+      "metric_name": "psnr",
+      "metric_value": 17.267244338989258
+    },
+    {
+      "metric_name": "ssim",
+      "metric_value": 0.7392560243606567
+    },
+    {
+      "metric_name": "background_dominance",
+      "metric_value": 0.08730094879865646
+    },
+    {
+      "metric_name": "duration_sec",
+      "metric_value": 2.67
+    },
+    {
+      "metric_name": "persistence",
+      "metric_value": 0.325
+    },
+    {
+      "metric_name": "norm_avg_velocity",
+      "metric_value": 0.01998
+    },
+    {
+      "metric_name": "norm_displacement_v",
+      "metric_value": 0.18882
+    },
+    {
+      "metric_name": "frames_count",
+      "metric_value": 26.0
+    },
+    {
+      "metric_name": "domain_concentration",
+      "metric_value": 96.15
+    },
+    {
+      "metric_name": "features",
+      "metric_value": "116de85ffc503ffe2de160c9543fe6665facd6d8801fa4181627ce1418ff243f_0_123_features_value.npy"
+    },
+    {
+      "metric_name": "temporary_consistency_clip_score",
+      "metric_value": 0.9342394471168518
+    }
+  ]
+}

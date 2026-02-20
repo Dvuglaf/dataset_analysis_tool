@@ -1,0 +1,89 @@
+{
+  "scene_id": "pyscenedetect (Adaptive) #0",
+  "metrics": [
+    {
+      "metric_name": "entropy",
+      "metric_value": 5.407301425933838
+    },
+    {
+      "metric_name": "brightness",
+      "metric_value": 137.59525377160506
+    },
+    {
+      "metric_name": "contrast",
+      "metric_value": 70.60951462511426
+    },
+    {
+      "metric_name": "saturation",
+      "metric_value": 27.05365152174423
+    },
+    {
+      "metric_name": "blur",
+      "metric_value": 137.81141358691175
+    },
+    {
+      "metric_name": "artifacts",
+      "metric_value": 0.00016711394401066026
+    },
+    {
+      "metric_name": "motion_smoothness",
+      "metric_value": 0.9999982118606567
+    },
+    {
+      "metric_name": "optical_flow",
+      "metric_value": 2.333904981613159
+    },
+    {
+      "metric_name": "psnr",
+      "metric_value": 17.46420669555664
+    },
+    {
+      "metric_name": "ssim",
+      "metric_value": 0.8632999658584595
+    },
+    {
+      "metric_name": "background_dominance",
+      "metric_value": 0.2533382773399353
+    },
+    {
+      "metric_name": "duration_sec",
+      "metric_value": 2.93
+    },
+    {
+      "metric_name": "persistence",
+      "metric_value": 0.114
+    },
+    {
+      "metric_name": "norm_avg_velocity",
+      "metric_value": 0.04785
+    },
+    {
+      "metric_name": "norm_displacement_v",
+      "metric_value": 0.00142
+    },
+    {
+      "metric_name": "frames_count",
+      "metric_value": 10.0
+    },
+    {
+      "metric_name": "domain_concentration",
+      "metric_value": 54.74
+    },
+    {
+      "metric_name": "features",
+      "metric_value": "901cee0fe2f5cf7f30431f157acd5176001af952d8c189da26768afb085e1f63_0_683_features_value.npy"
+    },
+    {
+      "metric_name": "temporary_consistency_clip_score",
+      "metric_value": 0.9696904420852661
+    },
+    {
+      "metric_name": "temporary_consistency_clip_score",
+      "metric_value": 0.9696904420852661
+    },
+    {
+      "metric_name": "temporary_consistency_clip_score",
+      "metric_value": 0.9696904420852661
+    }
+  ]
+}
