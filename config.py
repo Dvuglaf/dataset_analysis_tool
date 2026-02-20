@@ -199,5 +199,3 @@ FILTERS = {
         }
     }
 }
-
-cache_manager = CacheManager(".analyzer_cache/")

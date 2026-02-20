@@ -71,20 +71,17 @@ def build_tree(
     except PermissionError:
         return
 
-    # сортируем: сначала папки, потом файлы
-    folders = sorted([e for e in entries if (folder_path / e).is_dir()],
+    folders = sorted([e for e in entries if Path(folder_path / e).is_dir()],
                      key=lambda x: str(x).lower())
-    files = sorted([e for e in entries if (folder_path / e).is_file()
+    files = sorted([e for e in entries if Path(folder_path / e).is_file()
                     and str(e).lower().endswith(VIDEO_EXTENSIONS)],
                    key=lambda x: str(x).lower())
 
-    # добавляем папки
     for f in folders:
         item = QTreeWidgetItem(parent_item, [f.name])
         item.setIcon(0, FOLDER_ICON)
         build_tree(item, folder_path / f, collected_videos)
 
-    # добавляем видео файлы
     for f in files:
         item = QTreeWidgetItem(parent_item, [f.name])
         item.setIcon(0, VIDEO_ICON)
@@ -446,7 +443,7 @@ class VideoBrowserWindow(QWidget):
         return Path(folder)
 
     def load_directory(self, path_to_directory: str | Path):
-        path_to_directory = Path(path_to_directory)
+        path_to_directory = Path(path_to_directory).resolve()
         self._current_dir = path_to_directory
         self.tree.clear()
         root_item = QTreeWidgetItem(self.tree, [path_to_directory.name])

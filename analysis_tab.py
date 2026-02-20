@@ -917,8 +917,6 @@ class AnalysisTab(QWidget):
 
         main.addLayout(btn_layout)
 
-        self._no_load = True
-
         self.loader = LoadingOverlay(self)
         self.loader.raise_()
 
@@ -940,19 +938,12 @@ class AnalysisTab(QWidget):
 
     @Slot(SceneSegment)
     def on_scene_changed(self, scene_segment: SceneSegment):
-        if self._no_load and "tyres" in self._model.current_media.path_to_file.name:
-            self.quality.set_empty_metrics()
-            self.motion.set_empty_metrics()
-            self.diversity.set_empty_metrics()
-            self.overall.set_empty_metrics()
-            return
         if self._model.current_tab != "analysis" or self._mode != "scene":
             return
         cached_metrics = self._cache_manager.get_scene_cached_metrics(
             self._model.current_media.path_to_file,
             scene_segment
         )
-        print(cached_metrics)
         if cached_metrics is None:
             self.quality.set_empty_metrics()
             self.motion.set_empty_metrics()
@@ -976,12 +967,6 @@ class AnalysisTab(QWidget):
         self.overall.set_empty_metrics()
 
     def attach_video_metrics(self):
-        if self._no_load and "tyres" in self._model.current_media.path_to_file.name:
-            self.quality.set_empty_metrics()
-            self.motion.set_empty_metrics()
-            self.diversity.set_empty_metrics()
-            self.overall.set_empty_metrics()
-            return
         video_scenes = self._model.scenes
         if video_scenes is None or not video_scenes:
             return
@@ -1007,12 +992,6 @@ class AnalysisTab(QWidget):
 
     @Slot(VideoWrapper)
     def on_video_changed(self, video_wrapper: VideoWrapper):
-        if self._no_load and "tyres" in self._model.current_media.path_to_file.name:
-            self.quality.set_empty_metrics()
-            self.motion.set_empty_metrics()
-            self.diversity.set_empty_metrics()
-            self.overall.set_empty_metrics()
-            return
         if self._mode == "video":
             self.attach_video_metrics()
 
@@ -1036,21 +1015,17 @@ class AnalysisTab(QWidget):
         super().resizeEvent(e)
 
     def on_compute_clicked(self):
-        if "tyres" in self._model.current_media.path_to_file.name:
-            self.tyres_compute_clicked.emit()
-            self._no_load = False
-            self.attach_video_metrics()
-        # if self._mode == "scene":
-        #     task = ComputeSceneMetricsTask(
-        #         video_path=self._model.current_media.path_to_file,
-        #         scene=self._model.current_scene,
-        #         cache_manager=self._cache_manager,
-        #         object_classes=self._model.current_classes
-        #     )
-        #     task.partial_result.connect(self.on_partial_result)
-        #     self._analysis_manager.submit_task(task)
-        # else:
-        #     pass
+        if self._mode == "scene":
+            task = ComputeSceneMetricsTask(
+                video_path=self._model.current_media.path_to_file,
+                scene=self._model.current_scene,
+                cache_manager=self._cache_manager,
+                object_classes=self._model.current_classes
+            )
+            task.partial_result.connect(self.on_partial_result)
+            self._analysis_manager.submit_task(task)
+        else:
+            pass
 
     def on_partial_result(self, path_to_video: str | Path, scene_segment: SceneSegment,
                           task_name: str, data: dict):

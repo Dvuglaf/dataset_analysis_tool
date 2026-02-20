@@ -9,7 +9,7 @@ from custom_types import ProjectModel, SceneModel, VideoModel, SceneSegment, Sce
 
 def get_relative_video_path(video_path: Path, root_path: Path) -> Path:
     try:
-        return video_path.relative_to(root_path)
+        return video_path.relative_to(root_path.resolve())
     except ValueError:
         return video_path
 

@@ -175,7 +175,7 @@ class MainWindow(QMainWindow):
         super().__init__()
 
         self._analysis_manager = AnalysisManager()
-        self._cache_manager = CacheManager(".analysis_cache_industrial_v2/")
+        self._cache_manager = CacheManager("./demo/analysis_cache/")
 
         self._model = model
         self._project = project
@@ -432,7 +432,6 @@ class MainWindow(QMainWindow):
         video_paths = getattr(self.dataset, "_video_paths", None) or []
 
         dataset_metrics = self._cache_manager.get_dataset_level_metrics(video_paths)
-        print(dataset_metrics)
 
         dataset_row = TableRow(
             dataset=self._project.dataset_path.name,
@@ -569,13 +568,4 @@ def main():
 
 
 if __name__ == "__main__":
-    # video_paths = list(Path("/Users/dvuglaf/Desktop/industrial videos").glob("**/*.mp4"))
-    # cache_manager = CacheManager("./.analysis_cache_industrial_v2")
-    # metrics = cache_manager.get_dataset_level_metrics(video_paths)
-    # from pprint import pprint
-    # pprint(metrics)
-
-    # get ics_score for all videos
-
-    # exit()
     main()
